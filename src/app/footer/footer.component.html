@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="links">
+        <div class="link-wrapper">
+            <div class="headers">Quick Links</div>
+            <div *ngFor="let link of quickLinks">
+                <div class="link">{{link.name}}</div>
+            </div>
+        </div>
+        <div class="link-wrapper">
+            <div class="headers">Offers</div>
+            <div *ngFor="let link of offers">
+                <div class="link">{{link.name}}</div>
+            </div>
+        </div>
+        <div class="link-wrapper">
+            <div class="headers">My Yallo</div>
+            <div *ngFor="let link of myYallo">
+                <div class="link">{{link.name}}</div>
+            </div>
+        </div>
+        <div class="link-wrapper">
+            <div class="headers">About Yallo</div>
+            <div *ngFor="let link of aboutYallo">
+                <div class="link">{{link.name}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="logo"></div>
+</div>

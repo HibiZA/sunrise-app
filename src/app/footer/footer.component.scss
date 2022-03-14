@@ -1,0 +1,77 @@
+:host {
+    background: #27303E;
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    height: 440px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+    .links{
+        width: 1180px;
+        height: 227px;
+        display: flex;
+        justify-content: center;
+        gap: 10px 20px;
+    
+        .link-wrapper{
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            
+            .headers{
+                width: 280px;
+                height: 29px;
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 21px;
+                line-height: 29px;
+                /* identical to box height */
+    
+                text-align: center;
+                color: #FFFFFF;
+            }
+            .link{
+                width: 280px;
+                height: 22px;
+    
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 22px;
+                /* identical to box height */
+    
+                text-align: center;
+    
+                color: #AAB0B4;
+    
+            }
+        }
+
+    }
+    .logo{
+        bottom: 35px;
+        width: 51.57px;
+        height: 29.65px;
+        background: url(shared/logo.svg);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container { 
+        height: auto;
+        width: auto;
+        .links{
+            height: auto;
+            width: auto;
+            margin-top: 20px;
+            flex-direction: column;
+            align-items: center;
+        } }
+}

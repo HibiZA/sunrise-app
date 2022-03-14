@@ -1,0 +1,33 @@
+.overview-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+    .animal-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 100px 88px;
+        margin: 213px 70px 20px 70px;
+        justify-content: center;
+        
+    }
+    .update-button{
+        padding: 10px 48px 8px;
+        width: 260px;
+        height: 48px;
+        left: calc(50% - 260px/2 - 10px);
+        bottom: 482px;
+        margin: 42px;
+        border: none;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+    
+        background: #00CCCC;
+        border-radius: 100px;
+    }
+}

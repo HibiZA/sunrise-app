@@ -1,0 +1,8 @@
+<div class="overview-container">
+    <div class="animal-container" *ngIf="apiService.animals">
+        <div *ngFor="let item of apiService.animals.items">
+            <app-cards [petName]="item.name" [petType]="item.type" [petPhoto]="item.avatar" [id]="item.id"></app-cards>
+        </div>
+    </div>
+    <button class="update-button" (click)="update()">Update</button>
+</div>
